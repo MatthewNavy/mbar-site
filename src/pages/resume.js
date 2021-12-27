@@ -21,7 +21,7 @@ const Resume = () => (
           <div className="col-lg-4">
             <div className="card">
               <a href="https://coinbase.com">
-                <img src={coinbase} alt="Coinbase Logo" width="350" height="300"></img>
+                <img src={coinbase} alt="Coinbase Logo" width="407" height="410"></img>
               </a>
               <div className="card-body">
                 <h5 className="card-title">
@@ -46,8 +46,8 @@ const Resume = () => (
               <a href="https://trinity.edu">
                 <StaticImage
                   src="../images/trinity.jpg"
-                  width={350}
-                  height={300}
+                  width={410}
+                  height={410}
                   formats={["AUTO", "WEBP"]}
                   alt="Trinity University Logo"
                   className="img-fluid"
@@ -76,8 +76,8 @@ const Resume = () => (
               <a href="https://srcinc.com">
                 <StaticImage
                   src="../images/src.png"
-                  width={350}
-                  height={300}
+                  width={410}
+                  height={410}
                   formats={["AUTO", "WEBP"]}
                   alt="SRC Logo"
                   className="img-fluid"
@@ -88,7 +88,7 @@ const Resume = () => (
                   Software Engineer Intern ⚔
                 </h5>
                 <p className="card-text">
-                  Maintained large-scale military application. Conducted technical feasibility study.
+                  Maintained large-scale military application. Conducted feasibility study.
                 </p>
                <div className="card-header">
                   May - August 2020
