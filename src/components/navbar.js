@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { useEffect } from "react"
 
 const isActive = ({ isCurrent }) => {
   return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
@@ -9,6 +8,14 @@ const isActive = ({ isCurrent }) => {
 
 const ExactNavLink = props => (
   <Link getProps={isActive} {...props} />
+)
+
+const A = props => (
+  <div className="align-text-bottom">
+  <a href="https://etherscan.io/address/0x4fe4f54474fd3b1196bf865ae59021bf8b6eb1c9"
+  className="text-reset"
+  rel="noreferrer noopener"
+  target="_blank">matthewbarton.eth</a></div>
 )
 
 const Navbar = ({ siteTitle }) => {
@@ -32,12 +39,32 @@ const Navbar = ({ siteTitle }) => {
             </li>
             <li className="nav-item">
               <ExactNavLink
-                to="/about"
+                to="/resume"
               >
-                About
+                Resume
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
+                to="/books"
+              >
+                Book Recommendations
               </ExactNavLink>
             </li>
           </ul>
+          <div className="align-text-bottom">
+            <a
+              href="https://etherscan.io/address/0x4fe4f54474fd3b1196bf865ae59021bf8b6eb1c9"
+              className="text-reset"
+              rel="noreferrer noopener"
+              target="_blank"
+              data-bs-toggle="tooltip"
+              ata-bs-placement="top" 
+              title="Ethereum address"
+            >
+                matthewbarton.eth
+            </a>
+          </div>
         </div>
       </div>
     </nav>

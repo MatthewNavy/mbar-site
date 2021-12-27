@@ -4,6 +4,12 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
 import "./layout.scss"
+import Footer from "./footer"
+
+// const tagManagerArgs = {
+//   gtmId: 'GTM-W9783MG'
+// }
+// TagManager.initialize(tagManagerArgs)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,9 +25,10 @@ const Layout = ({ children }) => {
   return (
     <div className="container-fluid p-0">
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main >
+      <main>
         <main>{children}</main>
       </main>
+      <Footer></Footer>
     </div>
   )
 }

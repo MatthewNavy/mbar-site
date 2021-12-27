@@ -1,0 +1,21 @@
+$border-radius: .4rem;
+$enable-gradients: true;
+$enable-shadows: true;
+
+.icon {
+    color: #fff;
+    fill: #fff;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    // width: 5%;
+    // height: 5%;
+}
+
+.hr {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+body {
+    padding: 3rem 1.5rem;
+}
