@@ -23,7 +23,6 @@ const IndexPage = () => (
                 <StaticImage
                   src="../images/mbarton.jpg"
                   width={300}
-                  quality={95}
                   formats={["AUTO", "WEBP"]}
                   alt="My Selfie"
                   className="img-fluid"

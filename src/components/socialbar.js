@@ -13,7 +13,7 @@ const SocialBar = () => {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-auto">
-          <Social  title="Email" link="mailto:matthewrobbarton@gmail.com">
+          <Social title="Email" link="mailto:matthewrobbarton@gmail.com">
             {envelope}
           </Social>
         </div>
@@ -23,7 +23,7 @@ const SocialBar = () => {
           </Social>
         </div>
         <div className="col-auto">
-          <Social className="col-auto" title="GitHub" link="https://github.com/MatthewNavy">
+          <Social title="GitHub" link="https://github.com/MatthewNavy">
             {github}
           </Social>
         </div>

@@ -10,14 +10,6 @@ const ExactNavLink = props => (
   <Link getProps={isActive} {...props} />
 )
 
-const A = props => (
-  <div className="align-text-bottom">
-  <a href="https://etherscan.io/address/0x4fe4f54474fd3b1196bf865ae59021bf8b6eb1c9"
-  className="text-reset"
-  rel="noreferrer noopener"
-  target="_blank">matthewbarton.eth</a></div>
-)
-
 const Navbar = ({ siteTitle }) => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">

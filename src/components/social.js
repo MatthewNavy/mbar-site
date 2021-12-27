@@ -2,7 +2,6 @@ import * as React from 'react'
 import PropTypes from "prop-types"
 import "./social.scss"
 
-
 const Social = ({ title, link, children }) => {
   return (
     <main>
