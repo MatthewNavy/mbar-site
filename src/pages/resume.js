@@ -9,7 +9,7 @@ import Skill from "../components/skill"
 import School from "../components/school"
 
 const langs = ["Java", "Python", "Scala", "JavaScript", "Golang", "C++", "PostreSQL", "Haskell"]
-const tech = ["Git", "React", "Bootstrap", "REST APIs", "gRPC", "Docker", "Flutter", "Protocol Buffers"]
+const tech = ["Git", "React", "Bootstrap", "REST APIs", "gRPC", "Docker", "Flutter", "Protobufs"]
 const ideas = ["Web Development", "Machine Learning", "Agile", "Databases", "Game Theory", "Object Orientation", "Data Structures", "Algorithms"]
 
 const Resume = () => (
@@ -21,7 +21,7 @@ const Resume = () => (
           <div className="col-lg-4">
             <div className="card">
               <a href="https://coinbase.com">
-                <img src={coinbase} alt="Coinbase Logo" width="407" height="410"></img>
+                <img src={coinbase} alt="Coinbase Logo" width="407" height="410" className="card-img-top"></img>
               </a>
               <div className="card-body">
                 <h5 className="card-title">
@@ -50,7 +50,7 @@ const Resume = () => (
                   height={410}
                   formats={["AUTO", "WEBP"]}
                   alt="Trinity University Logo"
-                  className="img-fluid"
+                  className="img-fluid card-img-top"
                 />
               </a>
               <div className="card-body">
@@ -80,7 +80,7 @@ const Resume = () => (
                   height={410}
                   formats={["AUTO", "WEBP"]}
                   alt="SRC Logo"
-                  className="img-fluid"
+                  className="img-fluid card-img-top"
                 />
               </a>
               <div className="card-body">
