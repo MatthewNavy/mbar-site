@@ -61,6 +61,5 @@ module.exports = {
         trackingId: "G-VNTZLTM38M",
       },
     },
-    'gatsby-plugin-next-seo',
   ],
 }

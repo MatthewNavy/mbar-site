@@ -1,6 +1,5 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,7 +8,7 @@ import SocialBar from "../components/socialbar"
 
 const IndexPage = () => (
   <Layout>
-    <GatsbySeo title="Home" noindex={false} />
+    <Seo title="Home" />
     <section className="py-5 container">
       <div className="row py-lg-5">
         <div className="col-md mx-auto"> 
