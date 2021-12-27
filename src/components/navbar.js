@@ -46,6 +46,13 @@ const Navbar = ({ siteTitle }) => {
             </li>
             <li className="nav-item">
               <ExactNavLink
+                to="/poetry"
+              >
+                Poetry
+              </ExactNavLink>
+            </li>
+            <li className="nav-item">
+              <ExactNavLink
                 to="/books"
               >
                 Book Recommendations

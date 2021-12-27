@@ -4,13 +4,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Todo from "../components/todo"
 
-const Resume = () => (
+const Poetry = () => (
   <Layout>
-    <Seo title="Resume" />
+    <Seo title="Poetry" />
       <section className="py-5 container">
         <Todo></Todo>
       </section>
   </Layout>
 )
 
-export default Resume
+export default Poetry
