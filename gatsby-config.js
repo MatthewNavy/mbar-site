@@ -55,10 +55,12 @@ module.exports = {
         }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // You have got to be one messed up person to use my tracking id to send extra data to me. Messed up.
-        trackingId: "G-VNTZLTM38M",
+        trackingIds: [
+          // You have got to be one messed up person to use my tracking id to send extra data to me. Messed up.
+          "G-VNTZLTM38M",
+        ],
       },
     },
   ],
