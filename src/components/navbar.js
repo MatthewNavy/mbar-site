@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const isActive = ({ isCurrent }) => {
-  return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
+  return isCurrent ? { className: "nav-link active" } : { className: "nav-link" }
 }
 
 const ExactNavLink = props => (
@@ -36,20 +36,25 @@ const Navbar = ({ siteTitle }) => {
                 Resume
               </ExactNavLink>
             </li>
-            <li className="nav-item">
-              <ExactNavLink
-                to="/poetry"
-              >
+            <li className="nav-item dropdown">
+              <a className={ window.location.pathname.includes("poetry") ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle" } href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Poetry
-              </ExactNavLink>
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a className="dropdown-item" href="/poetry/uwh">The Uncharted Way Home</a></li>
+                <li><a className="dropdown-item" href="/poetry/siena">Siena, Italy</a></li>
+                <li><a className="dropdown-item" href="/poetry/ornament">Ornament</a></li>
+                <li><a className="dropdown-item" href="/poetry/crush">My Cougar Crush</a></li>
+                <li><a className="dropdown-item" href="/poetry/bedsheet">A hole in my bedsheet</a></li>
+              </ul>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <ExactNavLink
                 to="/books"
               >
                 Book Recommendations
               </ExactNavLink>
-            </li>
+            </li> */}
           </ul>
           <div className="align-text-bottom">
             <a

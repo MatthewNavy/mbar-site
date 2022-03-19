@@ -22,9 +22,9 @@ const IndexPage = () => (
               <div className="col-md mx-auto">
                 <StaticImage
                   src="../images/mbarton.jpg"
-                  width={300}
+                  // width={300}
                   formats={["AUTO", "WEBP"]}
-                  alt="My Selfie"
+                  alt="Portrait"
                   className="img-fluid"
                 />
               </div>
@@ -40,11 +40,11 @@ const IndexPage = () => (
               I am the Head Tutor of the <a className="text-reset" rel="noreferrer noopener" href="https://sites.google.com/trinity.edu/acmtutoring" data-type="URL" data-id="https://sites.google.com/trinity.edu/acmtutoring" target="_blank">Trinity CS peer tutoring program</a> (aka ACM Tutoring), which brings me great pleasure as I get to share my passion for solving complex technical problems and provide a helpful service to my classmates. I will also be a full-time Software Engineer at <a className="text-reset" rel="noreferror noopener" href="https://www.coinbase.com">Coinbase</a> after I graduate from Trinity. I am very excited to contribute to the crypto space and be a part of this large shift in how we store value.
             </p>
             <p>
-              In the marginal free time afforded to me, I enjoy everything basketball: watching the NBA, running pick-up games, playing NBA2K. I also watch some football when I can. I am a huge fan of the San Antonio Spurs and LA Chargers. To blow off steam, I play video games with friends or by myself.
+              In the marginal free time afforded to me, I enjoy everything basketball: watching the NBA, running pick-up games, playing NBA2K. I also watch some football when I can. I am a huge fan of the San Antonio Spurs and LA Chargers. To fill my creative needs, I try to write poetry here and there. You can find some of my work in the tab above.
             </p>
           <h3>Ways to Reach Me</h3>
             <p>
-              I'll share some professional and personal links below if you want to explore more about me. You can reach out to me via email or the contact form above for any matters. I keep my email at inbox zero.
+              I'll share some professional and personal links below if you want to explore more about me. You can reach out to me via email which I keep at inbox zero.
             </p>
         </div>
       </div>
