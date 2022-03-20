@@ -11,6 +11,7 @@ const ExactNavLink = props => (
 )
 
 const Navbar = ({ siteTitle }) => {
+  const url = typeof window !== 'undefined' ? window.location.pathname : '';
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">
       <div className="container-fluid">
@@ -37,7 +38,7 @@ const Navbar = ({ siteTitle }) => {
               </ExactNavLink>
             </li>
             <li className="nav-item dropdown">
-              <a className={ window.location.pathname.includes("poetry") ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle" } href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className={ url.includes("poetry") ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle" } href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Poetry
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
