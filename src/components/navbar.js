@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { useLocation } from '@reach/router';
 
 const isActive = ({ isCurrent }) => {
   return isCurrent ? { className: "nav-link active" } : { className: "nav-link" }
@@ -11,9 +12,10 @@ const ExactNavLink = props => (
 )
 
 const Navbar = ({ siteTitle }) => {
-  const url = typeof window !== 'undefined' ? window.location.pathname : '';
+  const location = useLocation();
+  // const url = typeof window !== 'undefined' ? window.location.pathname : '';
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
@@ -38,15 +40,15 @@ const Navbar = ({ siteTitle }) => {
               </ExactNavLink>
             </li>
             <li className="nav-item dropdown">
-              <a className={ url.includes("poetry") ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle" } href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className={ location.pathname.includes("poetry") ? "nav-link dropdown-toggle active" : "nav-link dropdown-toggle" } href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Poetry
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a className="dropdown-item" href="/poetry/uwh">The Uncharted Way Home</a></li>
-                <li><a className="dropdown-item" href="/poetry/siena">Siena, Italy</a></li>
-                <li><a className="dropdown-item" href="/poetry/ornament">Ornament</a></li>
-                <li><a className="dropdown-item" href="/poetry/crush">My Cougar Crush</a></li>
-                <li><a className="dropdown-item" href="/poetry/bedsheet">A hole in my bedsheet</a></li>
+                <li><Link className="dropdown-item" to="/poetry/uwh">The Uncharted Way Home</Link></li>
+                <li><Link className="dropdown-item" to="/poetry/siena">Siena, Italy</Link></li>
+                <li><Link className="dropdown-item" to="/poetry/ornament">Ornament</Link></li>
+                <li><Link className="dropdown-item" to="/poetry/crush">My Cougar Crush</Link></li>
+                <li><Link className="dropdown-item" to="/poetry/bedsheet">A hole in my bedsheet</Link></li>
               </ul>
             </li>
             {/* <li className="nav-item">
