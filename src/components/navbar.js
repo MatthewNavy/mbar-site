@@ -49,6 +49,7 @@ const Navbar = ({ siteTitle }) => {
                 <li><Link className="dropdown-item" to="/poetry/ornament">Ornament</Link></li>
                 <li><Link className="dropdown-item" to="/poetry/crush">My Cougar Crush</Link></li>
                 <li><Link className="dropdown-item" to="/poetry/bedsheet">A hole in my bedsheet</Link></li>
+                <li><Link className="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://invented-form.herokuapp.com/">invented form</Link></li>
               </ul>
             </li>
             {/* <li className="nav-item">
