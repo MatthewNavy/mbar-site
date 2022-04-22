@@ -19,7 +19,7 @@ const Crush = () => (
       <p>betting we could order pizza in a frozen hell.</p>
       <br></br>
       <p>And this gash was only pinched</p>
-      <p>by the distracting vagrants that we happend to live with and call friends.</p>
+      <p>by the distracting vagrants that we happened to live with and call friends.</p>
       <p>Their uninsightful remarks bored me and into my skull.</p>
       <p>It was exhausting to defend us from the babbling of</p>
       <p>those fools.</p>
