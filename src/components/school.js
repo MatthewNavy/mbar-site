@@ -30,7 +30,7 @@ const School = () => {
             <div className="fw-bold">
               Grades
             </div>
-            3.64 Cumulative GPA, 3.78 Department GPA
+            3.73 Cumulative GPA, 3.81 Department GPA, graduated cum laude
           </div>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-start">
@@ -38,7 +38,7 @@ const School = () => {
             <div className="fw-bold">
               Awards
             </div>
-            Dean's List x3, Trustees’ Scholarship
+            Dean's List x4, Trustees' Scholarship
           </div>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-start">

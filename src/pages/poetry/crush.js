@@ -8,7 +8,7 @@ const Crush = () => (
     <Seo title="My Cougar Crush" />
     <section className="py-5 container">
       <h3>My Cougar Crush</h3>
-      <p>We trod through the tastless and novel slush</p>
+      <p>We trod through the tasteless and novel slush</p>
       <p>dripping from the blank crust of sullen snow.</p>
       <p>The uneven earth proved as dangerous</p>
       <p>and fragile as my voice when I asked you</p>

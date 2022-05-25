@@ -31,13 +31,10 @@ const IndexPage = () => (
             </div>
           <h2>About Me</h2>
             <p>
-              I am a senior majoring in Computer Science and minoring in Mathematics at <a className="text-reset" href="https://www.trinity.edu/">Trinity University</a> in San Antonio, Texas. I am originally from Cypress, Texas, just outside of Houston.
+              I am a software engineer at <a className="text-reset" rel="noreferror noopener" href="https://www.coinbase.com">Coinbase</a> in New York City.  I am very excited to contribute to the crypto space and be a part of this large shift in how we store value. I studied Computer Science and Mathematics at <a className="text-reset" href="https://www.trinity.edu/">Trinity University</a> in San Antonio, Texas. I am originally from Cypress, Texas, just outside of Houston.
             </p>
             <p>
               I started my coding journey back in 2015 when I registered for Computer Programming 1 during my sophomore year at Cypress Woods High School (212, CDUB). There, I printed hello world, created Scratch games and started learning Python under some awesome teachers. After that, it has been a non-stop road of learning and delight. I have picked up many languages, platforms, and technologies along the way making each step more exciting than the last. Right now, my favorite language to use is Dart, though it's not very useful outside of <a className="text-reset" href="https://flutter.dev/">Flutter</a>.
-            </p>
-            <p>
-              I am the Head Tutor of the <a className="text-reset" rel="noreferrer noopener" href="https://sites.google.com/trinity.edu/acmtutoring" data-type="URL" data-id="https://sites.google.com/trinity.edu/acmtutoring" target="_blank">Trinity CS peer tutoring program</a> (aka ACM Tutoring), which brings me great pleasure as I get to share my passion for solving complex technical problems and provide a helpful service to my classmates. I will also be a full-time Software Engineer at <a className="text-reset" rel="noreferror noopener" href="https://www.coinbase.com">Coinbase</a> after I graduate from Trinity. I am very excited to contribute to the crypto space and be a part of this large shift in how we store value.
             </p>
             <p>
               In the marginal free time afforded to me, I enjoy everything basketball: watching the NBA, running pick-up games, playing NBA2K. I also watch some football when I can. I am a huge fan of the San Antonio Spurs and LA Chargers. To fill my creative needs, I try to write poetry here and there. You can find some of my work in the tab above.
